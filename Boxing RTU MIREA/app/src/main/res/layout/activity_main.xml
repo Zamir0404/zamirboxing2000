@@ -1,18 +1,365 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+   <ImageView
+       android:id="@+id/giImageView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+   <LinearLayout
+       android:padding="8dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+
+         <androidx.appcompat.widget.AppCompatButton
+             android:id="@+id/button01"
+             android:layout_margin="4dp"
+             android:text="ПН
+             01"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="70dp"
+             android:background="@drawable/button_round_purple_stoke"
+             /> <androidx.appcompat.widget.AppCompatButton
+             android:id="@+id/button02"
+             android:layout_margin="4dp"
+             android:text="ВТ
+             02"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="70dp"
+             android:background="@drawable/button_round_purple_stoke"
+             /> <androidx.appcompat.widget.AppCompatButton
+             android:id="@+id/button03"
+             android:layout_margin="4dp"
+             android:text="СР
+             03"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="70dp"
+             android:background="@drawable/button_round_purple_stoke"
+             /> <androidx.appcompat.widget.AppCompatButton
+             android:id="@+id/button04"
+             android:layout_margin="4dp"
+             android:text="ЧТ
+             04"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="70dp"
+             android:background="@drawable/button_round_purple_stoke"
+             /> <androidx.appcompat.widget.AppCompatButton
+             android:id="@+id/button05"
+             android:layout_margin="4dp"
+             android:text="ПТ
+             05"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="70dp"
+             android:background="@drawable/button_round_purple_stoke"
+             /> <androidx.appcompat.widget.AppCompatButton
+             android:id="@+id/button06"
+             android:layout_margin="4dp"
+             android:text="СБ
+             06"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="70dp"
+             android:background="@drawable/button_round_purple_stoke"
+             /> <androidx.appcompat.widget.AppCompatButton
+             android:id="@+id/button07"
+             android:layout_margin="4dp"
+             android:text="ВС
+             07"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="70dp"
+             android:background="@drawable/button_round_red_stoke"
+             />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+
+         <androidx.appcompat.widget.AppCompatButton
+             android:id="@+id/button08"
+             android:layout_margin="4dp"
+             android:text="ПН
+             08"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="70dp"
+             android:background="@drawable/button_round_purple_stoke"
+             /> <androidx.appcompat.widget.AppCompatButton
+          android:id="@+id/button09"
+          android:layout_margin="4dp"
+          android:text="ВТ
+             09"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:id="@+id/button10"
+          android:layout_margin="4dp"
+          android:text="СР
+             10"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="ЧТ
+             04"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="ПТ
+             05"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="СБ
+             06"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="ВС
+             07"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_red_stoke"
+          />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+
+         <androidx.appcompat.widget.AppCompatButton
+             android:layout_margin="4dp"
+             android:text="ПН
+             01"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="70dp"
+             android:background="@drawable/button_round_purple_stoke"
+             /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="ВТ
+             02"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="СР
+             03"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="ЧТ
+             04"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="ПТ
+             05"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="СБ
+             06"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="ВС
+             07"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_red_stoke"
+          />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+
+         <androidx.appcompat.widget.AppCompatButton
+             android:layout_margin="4dp"
+             android:text="ПН
+             01"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="70dp"
+             android:background="@drawable/button_round_purple_stoke"
+             /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="ВТ
+             02"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="СР
+             03"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="ЧТ
+             04"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="ПТ
+             05"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="СБ
+             06"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="ВС
+             07"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_red_stoke"
+          />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+
+         <androidx.appcompat.widget.AppCompatButton
+             android:layout_margin="4dp"
+             android:text="ПН
+             01"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="70dp"
+             android:background="@drawable/button_round_purple_stoke"
+             /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="ВТ
+             02"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="СР
+             03"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="ЧТ
+             04"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="ПТ
+             05"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="СБ
+             06"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_purple_stoke"
+          /> <androidx.appcompat.widget.AppCompatButton
+          android:layout_margin="4dp"
+          android:text="ВС
+             07"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="70dp"
+          android:background="@drawable/button_round_red_stoke"
+          />
+
+      </LinearLayout>
+
+
+   </LinearLayout>
+
+
+</RelativeLayout>

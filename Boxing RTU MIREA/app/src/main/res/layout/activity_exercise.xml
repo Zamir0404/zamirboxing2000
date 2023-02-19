@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exercise">
+    <ImageView
+        android:id="@+id/giExerciseImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:background="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+        <ImageView
+            android:id="@+id/baseline"
+            android:src="@drawable/ic_baseline_swipe_left_alt_24"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+
+        <TextView
+            android:id="@+id/textViewДень0Exercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="День 0"
+            android:textColor="@color/black"
+            android:textSize="36sp" />
+</RelativeLayout>
+    <TextView
+        android:id="@+id/textViewTimer"
+        android:textSize="76dp"
+        android:text="30"
+        android:textColor="@color/blue"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:textColor="@color/blue"
+        android:id="@+id/giСтарт"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/button_round_purple_stoke"
+        android:padding="22dp"
+        android:text="Старт"
+        android:textSize="34dp" />
+
+</RelativeLayout>
